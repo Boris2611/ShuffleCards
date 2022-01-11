@@ -4,6 +4,7 @@ body {
 }
 
 #back {
+    display: inline-block;
     position: absolute;
     width: 200px;
     rotate: 90deg;
@@ -14,6 +15,7 @@ body {
 }
 
 .card {
+    display: inline-block;
     border-radius: 10px;
     position: absolute;
     width: 200px;

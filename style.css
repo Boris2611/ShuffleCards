@@ -7,7 +7,7 @@ body {
     display: inline-block;
     position: absolute;
     width: 200px;
-    rotate: 90deg;
+    transform: scale(1) rotate(90deg) translate(0px, 0px);
     left: 80px;
     top: 20px;
     border-radius: 10px;
@@ -19,7 +19,7 @@ body {
     border-radius: 10px;
     position: absolute;
     width: 200px;
-    rotate: 90deg;
+    transform: scale(1) rotate(90deg) translate(0px, 0px);
     left: 80px;
     box-shadow: 4px 0px 5px 0px black;
     top: 20px;

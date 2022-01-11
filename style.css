@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: green;
+}
+
+#back {
+    position: absolute;
+    width: 200px;
+    rotate: 90deg;
+    left: 80px;
+    top: 20px;
+    border-radius: 10px;
+    z-index: 53;
+}
+
+.card {
+    border-radius: 10px;
+    position: absolute;
+    width: 200px;
+    rotate: 90deg;
+    left: 80px;
+    box-shadow: 4px 0px 5px 0px black;
+    top: 20px;
+}
+
+
+#counter {
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    color: white;
+}
+
+#butt {
+    position: absolute;
+    left: 50px;
+    top: 530px;
+    width: 260px;
+    height: 50px;
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px 5px #111;
+}
+
+#butt:hover {
+    background-color: red;
+
+}
+
